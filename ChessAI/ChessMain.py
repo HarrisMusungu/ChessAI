@@ -72,7 +72,7 @@ def drawGameState(screen, gs):
 Draw the squares on the board.
 '''
 def drawBoard(screen):
-    colors = [p.Color("purple"), p.Color("gray")]
+    colors = [p.Color("olive"), p.Color("white")]
     for r in range(DIMENSION):
         for c in range(DIMENSION):
             color = colors[((r+c)%2)]
