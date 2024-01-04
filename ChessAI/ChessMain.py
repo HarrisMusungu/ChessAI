@@ -60,6 +60,8 @@ def main():
                         moveMade = True
                     sqSelected = ()
                     playerClicks = []
+                else:
+                    playerClicks = [sqSelected]
             #key handlers
             elif e.type == p.KEYDOWN:
                 if e.key == p.K_z: #undo when "z" is pressed
